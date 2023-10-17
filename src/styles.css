@@ -1,0 +1,104 @@
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%);
+}
+
+* {
+    margin: 0 auto;
+    font-family: 'Mooli', sans-serif;
+    padding: 10px 10px 10px 10px;
+}
+
+.sun {
+    font-size: 50px;
+}
+
+.cloud {
+    font-size: 50px;
+    color: gainsboro;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.cerca {
+    display: block;
+    position: relative;
+    top: -270px;
+}
+
+.container2 h2 {
+    font-weight: bold;
+}
+
+.Monday {
+    display: inline-block;
+    padding: 15px 15px 15px;
+    padding-left: 3px;
+
+}
+
+.mon {
+    color: yellow;
+    font-size: 50px;
+}
+
+.Tuesday {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+.tue {
+    color: lightblue;
+    font-size: 50px;
+}
+
+.Wednesday {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+.wed {
+    color: lightgray;
+    font-size: 50px;
+}
+
+.Thursday {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+.thu {
+    color: slategray;
+    font-size: 50px;
+}
+
+.Friday {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+.fri {
+    color: darkslateblue;
+    font-size: 50px;
+}
+
+.Saturday {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+.sat {
+    color: darkblue;
+    font-size: 50px;
+}
+
+.Sunday {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+.sun {
+    color: rgb(53, 52, 67);
+    font-size: 50px;
+}
