@@ -25,7 +25,7 @@ button.btn-light {
     font-weight: bold;
     background-color: rgb(236, 154, 236);
     border: none;
-    box-shadow: 3px 1px 3px rgb(199, 223, 223);
+    box-shadow: 3px 1px 3px rgb(189, 138, 237);
     margin-left: 10px;
 }
 
@@ -34,7 +34,7 @@ input#find-city {
     height: 30px;
     font-size: 13px;
     color: rgb(95, 108, 121);
-    box-shadow: 3px 1px 3px rgb(199, 223, 223);
+    box-shadow: 3px 1px 3px rgb(189, 138, 237);
 }
 
 .sun {
