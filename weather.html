@@ -11,67 +11,77 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/141df55af4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/styles.css">
-    <title>Weather App</title>
+    <title>She Weather Forecasts</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1> Palermo (Italy) </h1>
-        <h3> Monday 25/09/23 </h3>
-        <h2> 28° - 23° </h2>
-        <i class="fa-solid fa-sun sun" style="color: #f5f92f;"></i>
-        <i class="fa-solid fa-cloud-sun cloud"></i>
-        <div class="row mb-3 cerca">
-            <div class="col-sm-4">
-                <input type="text" class="form-control form-control-sm" id="find-city" placeholder="Find a city">
+    <div class="main-container">
+        <div class="container">
+            <h1> Palermo (Italy) </h1>
+            <h3> Monday 25/09/23 </h3>
+            <h2> 28° - 23° </h2>
+            <i class="fa-solid fa-sun sun" style="color: #f5f92f;"></i>
+            <i class="fa-solid fa-cloud-sun cloud"></i>
+            <div class="row mb-3 find">
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="find-city" placeholder="Find a city">
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-light">Find</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container2">
-            <h2>Weekly Forecast</h2>
-            <div class="Monday">
-                <h4>
-                    Mon
-                </h4>
-                <i class="fa-solid fa-sun mon"></i>
-            </div>
-            <div class="Tuesday">
-                <h4>
-                    Tue
-                </h4>
-                <i class="fa-solid fa-cloud-sun tue"></i>
-            </div>
-            <div class="Wednesday">
-                <h4>
-                    Wed
-                </h4>
-                <i class="fa-solid fa-cloud wed"></i>
-            </div>
-            <div class="Thursday">
-                <h4>
-                    Thu
-                </h4>
-                <i class="fa-solid fa-cloud-sun-rain thu"></i>
-            </div>
-            <div class="Friday">
-                <h4>
-                    Fri
-                </h4>
-                <i class="fa-solid fa-cloud-rain fri"></i>
-            </div>
-            <div class="Saturday">
-                <h4>
-                    Sat
-                </h4>
-                <i class="fa-solid fa-cloud-showers-heavy sat"></i>
-            </div>
-            <div class="Sunday">
-                <h4>
-                    Sun
-                </h4>
-                <i class="fa-solid fa-cloud-bolt sun"></i>
-            </div>
-        </div>
 
+
+            <div class="container2">
+                <h2>Weekly Forecast</h2>
+                <div class="Monday">
+                    <h4>
+                        Mon
+                    </h4>
+                    <i class="fa-solid fa-sun mon"></i>
+                </div>
+                <div class="Tuesday">
+                    <h4>
+                        Tue
+                    </h4>
+                    <i class="fa-solid fa-cloud-sun tue"></i>
+                </div>
+                <div class="Wednesday">
+                    <h4>
+                        Wed
+                    </h4>
+                    <i class="fa-solid fa-cloud wed"></i>
+                </div>
+                <div class="Thursday">
+                    <h4>
+                        Thu
+                    </h4>
+                    <i class="fa-solid fa-cloud-sun-rain thu"></i>
+                </div>
+                <div class="Friday">
+                    <h4>
+                        Fri
+                    </h4>
+                    <i class="fa-solid fa-cloud-rain fri"></i>
+                </div>
+                <div class="Saturday">
+                    <h4>
+                        Sat
+                    </h4>
+                    <i class="fa-solid fa-cloud-showers-heavy sat"></i>
+                </div>
+                <div class="Sunday">
+                    <h4>
+                        Sun
+                    </h4>
+                    <i class="fa-solid fa-cloud-bolt sun"></i>
+                </div>
+            </div>
+        </div>
 
         <script src="/src/index.js"></script>
 </body>

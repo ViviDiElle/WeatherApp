@@ -1,4 +1,4 @@
-let weather = {
+/*let weather = {
   "paris": {
     temp: 19.7,
     humidity: 80
@@ -35,4 +35,4 @@ if (weather.hasOwnProperty(city)) {
 } else {
     // Se la città non esiste, mostra un avviso con un link a Google Weather
     alert(`Sorry, we don't know the weather for this city, try going to https://www.google.com/search?q=weather+${city}`);
-};
+};*/
