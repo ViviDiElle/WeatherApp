@@ -14,8 +14,10 @@ body {
     padding: 20px;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 5px 30px 0 rgba(0, 0, 0, 0.2);
-    background-color: #ff32d3;
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/389/original/cielo.jpg?1697820174);
+    background-size: cover;
 }
+
 
 button.btn-light {
     height: 30px;
