@@ -148,3 +148,19 @@ h1 {
     color: rgb(53, 52, 67);
     font-size: 50px;
 }
+
+footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+#linkedin {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#linkedin:hover {
+    color: rgb(210, 115, 210);
+    text-decoration: underline;
+}
