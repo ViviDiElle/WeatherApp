@@ -16,10 +16,23 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 5px 30px 0 rgba(0, 0, 0, 0.2);
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/389/original/cielo.jpg?1697820174);
     background-size: cover;
+    position: relative;
 }
 
+#find-city {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: fit-content;
+    border: solid 1px gray;
+}
 
-button.btn-light {
+#btn-search {
+    border-radius: 10px;
+    background-color: gainsboro;
+    border: solid 1px gray;
+}
+
+/*button.btn-light {
     height: 30px;
     width: 50px;
     font-size: 13px;
@@ -28,16 +41,19 @@ button.btn-light {
     background-color: rgb(236, 154, 236);
     border: none;
     box-shadow: 3px 1px 3px rgb(189, 138, 237);
-    margin-left: 10px;
+    position: absolute;
 }
 
 input#find-city {
+    position: absolute;
+    top: 0;
+    width: 100%;
     width: 100px;
     height: 30px;
     font-size: 13px;
     color: rgb(95, 108, 121);
     box-shadow: 3px 1px 3px rgb(189, 138, 237);
-}
+}*/
 
 .sun {
     font-size: 50px;
@@ -52,11 +68,10 @@ h1 {
     font-weight: bold;
 }
 
-.find {
-    position: relative;
-    top: -290px;
-    left: 130px;
-}
+/*.find {
+    display: flex;
+    flex-direction: row;
+}*/
 
 .container2 h2 {
     font-weight: bold;
