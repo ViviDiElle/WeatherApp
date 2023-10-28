@@ -22,38 +22,58 @@ body {
 #find-city {
     border-radius: 10px;
     background-color: whitesmoke;
-    width: fit-content;
+    width: 300px;
     border: solid 1px gray;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #btn-search {
     border-radius: 10px;
     background-color: gainsboro;
     border: solid 1px gray;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-/*button.btn-light {
-    height: 30px;
-    width: 50px;
-    font-size: 13px;
-    color: rgb(95, 108, 121);
-    font-weight: bold;
-    background-color: rgb(236, 154, 236);
-    border: none;
-    box-shadow: 3px 1px 3px rgb(189, 138, 237);
-    position: absolute;
+.currentDate {
+    font-size: 22px;
 }
 
-input#find-city {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    width: 100px;
-    height: 30px;
-    font-size: 13px;
-    color: rgb(95, 108, 121);
-    box-shadow: 3px 1px 3px rgb(189, 138, 237);
-}*/
+#actual-city {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#degrees {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#celsius-d {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+#fahrenheit-d {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+#celsius-d:hover {
+    color: blueviolet;
+}
+
+#fahrenheit-d:hover {
+    color: blueviolet;
+}
+
+
 
 .sun {
     font-size: 50px;
