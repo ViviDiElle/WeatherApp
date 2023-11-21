@@ -1,2 +1,2 @@
 # WeatherApp
-Weather App - work in progress
+Weather App - work in progress 💻🚀💡✨🌸❤️
