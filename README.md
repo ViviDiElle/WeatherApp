@@ -1,4 +1,8 @@
 # WeatherApp
-Weather App - work in progress 💻🚀💡✨🌸❤️
+SheCodes Weather App - work in progress 💻🚀💡✨🌸❤️
 
-Currently developed with HTML+CSS+JAVASCRIPT
+✅Currently developed with HTML+CSS+JAVASCRIPT
+
+✅Trying out the Netlify deploying option
+
+🚧Work in progress🚧
