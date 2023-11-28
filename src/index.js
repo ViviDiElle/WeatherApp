@@ -208,21 +208,6 @@ current.innerHTML = `${day}, ${timeNow}`;
 
 //Scrivo città nel form e cambia in html
 
-document
-  .getElementById("search-form")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
-
-    let cityInput = document.getElementById("find-city");
-    let cityValue = cityInput.value;
-
-    let cityy = document.getElementById("actual-city");
-    cityy.innerHTML = `${cityValue}`;
-
-    // Imposta il valore dell'input su una stringa vuota
-    cityInput.value = "";
-  });
-
 // Selezionare il form di ricerca e l'input di testo
 let searchForm = document.getElementById("search-form");
 let findCity = document.getElementById("find-city");
@@ -239,6 +224,11 @@ searchForm.addEventListener("submit", function (event) {
   city = findCity.value;
   // Mostrare il valore della variabile city nella console
   console.log(city);
+  // Cambiare il contenuto di actual-city
+  let cityy = document.getElementById("actual-city");
+  cityy.innerHTML = `${city}`;
+  // Imposta il valore dell'input su una stringa vuota
+  findCity.value = "";
   // Chiamare la funzione searchCity per cercare la città
   searchCity(city);
 });
@@ -261,12 +251,15 @@ function displayCity(response) {
 
   // Estrarre i dati che ci interessano dalla risposta
   let cityName = response.data.city;
-let cityTemp = Math.round(response.data.temperature.current);
+  let cityTemp;
+  if (response.data.temperature && response.data.temperature.current) {
+    cityTemp = Math.round(response.data.temperature.current);
+  } else {
+    cityTemp = 'Temperature data not available';
+  }
   // Selezionare gli elementi HTML dove vogliamo mostrare il nome della città e la temperatura
-  let actualCity = document.getElementById("actual-city");
   let degrees = document.getElementById("degrees");
 
   // Assegnare il valore dei dati agli elementi HTML
-  actualCity.innerHTML = cityName;
   degrees.innerHTML = cityTemp;
 }
